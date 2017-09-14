@@ -30,7 +30,7 @@ var menu = new UI.Menu({
 });
 
 function getTasks() {
-  ajax({ url: 'https://api.toodledo.com/3/tasks/get.php?access_token=2a668da7d77b8012af8edfa194c3e9e636349ff6&f=json&comp=0&fields=folder,duedate&start=0', type: 'json' },
+  ajax({ url: 'https://api.toodledo.com/3/tasks/get.php?access_token=1040acd2dee8dcf58276cd04961b0bf38cb574e2&f=json&comp=0&fields=folder,duedate&start=0', type: 'json' },
     function(data) {
       console.log('Received data.');
       console.log('Today: ' + todaydate + ' (' + todayunixtime + ')');
@@ -53,7 +53,7 @@ function getTasks() {
     }
   );
   
-  ajax({ url: 'https://api.toodledo.com/3/tasks/get.php?access_token=2a668da7d77b8012af8edfa194c3e9e636349ff6&f=json&comp=0&fields=folder,duedate&start=1000', type: 'json' },
+  ajax({ url: 'https://api.toodledo.com/3/tasks/get.php?access_token=1040acd2dee8dcf58276cd04961b0bf38cb574e2&f=json&comp=0&fields=folder,duedate&start=1000', type: 'json' },
     function(data) {
       console.log('Received data.');
       console.log('Today: ' + todaydate + ' (' + todayunixtime + ')');

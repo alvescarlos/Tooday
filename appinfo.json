@@ -29,9 +29,9 @@
                 "type": "font"
             },
             {
-                "file": "images/motorcross-cake-dirt-bike-cakes.png",
+                "file": "images/apple-touch-icon-114x114-precomposed.png",
                 "menuIcon": true,
-                "name": "IMAGES_MOTORCROSS_CAKE_DIRT_BIKE_CAKES_PNG",
+                "name": "IMAGES_APPLE_TOUCH_ICON_114X114_PRECOMPOSED_PNG",
                 "type": "bitmap"
             }
         ]
@@ -39,7 +39,7 @@
     "sdkVersion": "3",
     "shortName": "Tooday",
     "targetPlatforms": [
-        "emery"
+        "basalt"
     ],
     "uuid": "67b306ae-5f8b-46db-94c8-dd75e3f2b4f2",
     "versionCode": 1,
